@@ -1,0 +1,20 @@
+[package]
+name = "react-template"
+version = "0.1.0"
+edition = "2021"
+description = "Template frontend app in React, using the Vite bundler"
+readme = "README.md"
+authors = ["Jeffery D. Mitchell", "<sentinel1909@jeff-mitchell.dev"]
+repository = "https://github.com/sentinel1909/shuttle-template-yew"
+license = 'MIT'
+keywords = ["axum, shuttle, vite, react"]
+categories = ["template"]
+publish = false
+
+[dependencies]
+axum = "0.6.18"
+shuttle-axum = "0.24.0"
+shuttle-runtime = "0.24.0"
+shuttle-static-folder = "0.24.0"
+tokio = "1.28.2"
+tower-http = { version = "0.4.3", features = [ "fs" ] }
