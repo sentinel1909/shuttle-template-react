@@ -10,13 +10,13 @@ function App() {
   return (
     <>
       <div>
-        <a href="https://vitejs.dev" target="_blank">
+        <a href="https://vitejs.dev" rel="noreferrer" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
         </a>
-        <a href="https://react.dev" target="_blank">
+        <a href="https://react.dev" rel="noreferrer" target="_blank">
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
-        <a href="https://shuttle.rs" target="_blank">
+        <a href="https://shuttle.rs" rel="noreferrer" target="_blank">
           <img src={shuttleLogo} alt="Shuttle Logo" />
         </a>
       </div>
